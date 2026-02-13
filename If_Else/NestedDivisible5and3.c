@@ -13,5 +13,8 @@ int main(){
             printf("Given number is not divisible by both 3 and 5");
         }
     }
+    else{
+    printf("Given number is not divisible by both 3 and 5");
+    }
     return 0;
 }
