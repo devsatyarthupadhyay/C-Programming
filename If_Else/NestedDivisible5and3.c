@@ -10,7 +10,7 @@ int main(){
             printf("Given number is divisible by both 3 and 5 ");
         }
         else{
-            printf("Given number is not divisible by both 3 and 5");
+            printf("Given number is divisible by 5 but not divisible by 3");
         }
     }
     else{
