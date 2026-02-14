@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    float cp,sp;
+    float cp,sp,p,l;
 
     printf("Enter the Cost price :");
     scanf("%f",&cp);
@@ -10,14 +10,14 @@ int main(){
 
     if(sp>cp){
         printf("Profit\n");
-        sp=sp-cp;
-        printf("Net profit is %f rupees",sp);
+        p=sp-cp;
+        printf("Net profit is %f rupees",p);
     }
 
     if(sp<cp){
         printf("Loss\n");
-        cp=cp-sp;
-        printf("Net loss is %f rupees",cp);
+        l=cp-sp;
+        printf("Net loss is %f rupees",l);
     }
 
     if(sp==cp){
