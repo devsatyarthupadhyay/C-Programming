@@ -20,7 +20,7 @@ int main()
     }
     else { // b>a , a is out of race 
         if(b>c){  
-            printf("%b is the greatest integer",b);
+            printf("%d is the greatest integer",b);
         }
         else { //c>b
             printf("%d is the greatest integer",c);
