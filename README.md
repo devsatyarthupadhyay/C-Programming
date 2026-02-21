@@ -23,7 +23,7 @@ I am focused on mastering C programming fundamentals, improving logical thinking
 - Switch Case
 - Logical Problem Programs
 
-### 🔹 Loops (Coming Soon)
+### 🔹 Loops
 - For Loop
 - While Loop
 - Do-While Loop
