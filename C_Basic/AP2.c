@@ -1,6 +1,8 @@
 #include<stdio.h>
 int main(){
-    for(int i=100;i>=0;i=i-3){
-        printf("%d\n",i);
+    int a=100;
+    for(int i=1;a>0;i++){
+        printf("%d\n",a);
+        a=a-3;
     }
 }
