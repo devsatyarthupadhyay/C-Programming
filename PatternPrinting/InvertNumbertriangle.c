@@ -4,7 +4,7 @@ int main(){
     printf("Enter How many lines you want :");
     scanf("%d",&number);
     for(int i=number;i>=1;i--){
-        for(int j=5;j>=i;j--)
+        for(int j=number;j>=i;j--)
         printf("%d ",j);
         printf("\n");
     }
